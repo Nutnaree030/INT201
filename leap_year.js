@@ -1,7 +1,7 @@
 
 /*  For examine with how to 'use' and remind. */
-
-const leapy = 4 ;
+/* - Change variable names */
+const LEAPY = 4 ;
 var testy = 999 ;
 var testy = 636 ;
 let mybroy = 2004 ;
@@ -11,7 +11,7 @@ setTimeout(() => {
     // This statement won't start until next 3 seconds.
     // Be in line with the law which use when...
     // in process, there are some functions that need work like 'Asychronous'.
-    console.log("Now, the process finished and stoped all works!");
+    console.log("Now, time passed 3 seconds so the process should finish and stop all it works!");
     // During waiting, this will go to stack and callback queue before.
     // And after that, if not only stack is empty but also its time to run,
     // this function will had been run certain very quickly!
@@ -19,10 +19,32 @@ setTimeout(() => {
 
 function FindLeapYear(year) {
     var y = year;
-    x = y%leapy;
+    x = y%LEAPY;
     let leapyear = x;
     console.log(`${y}`);
 
+    // in if-else case
+        // if (leapyear==0) {
+        //     console.log(`${leapyear}`+" : This is a leap year!");
+        //     console.log("So you can notice that this year has 29 days of February.");   
+        // }
+        // if (leapyear==1) {
+        //     console.log(`${leapyear}`+" : This isn't a leap year.");
+        //     console.log("The latest leap year has just passed in the last year!");    
+        // }
+        // if (leapyear==2) {
+        //     console.log(`${leapyear}`+" : This isn't a leap year.");
+        //     console.log("Because the latest one had already happened in 2 years ago!");
+        // }
+        // if (leapyear==3) {
+        //     console.log(`${leapyear}`+" : This isn't a leap year.");
+        //     console.log("But the next year will be the newest leap year!");
+        //         }
+        // else if (leapyear != 1 && leapyear != 2 && leapyear != 3 && leapyear != 0 ) {
+        //     console.log("Processes : ERROR!!!");
+        // }
+
+    // in switch case
     switch (leapyear) {
 
         case 0 :
@@ -49,8 +71,6 @@ function FindLeapYear(year) {
             console.log("Processes : ERROR!!!");
             break;
     }
-
-    setTimeout
 }
 
 //test result
@@ -67,12 +87,14 @@ FindLeapYear(testy);
 // because the process will choose the latest value var to represent only one,
 // so it means that they use the newest for calculation likes : testy -> 636 % 4 = 0.
 FindLeapYear(mybroy);
-// Desprite of 'let' has the process that's not more difference than 'var'.
-// But when it has two 'let' values in the process and the same space, everything will stop
-// and show the error told you can't create the same varieables repeat like 'var'.
-// Lastly, you need to choose only one in let by yourself before start the process again.
-// So all of them can annotate the difference between 'var' and 'let'
-// that first one can both update and re-declare,
-// be opposite with second one which can update but can't declare again.
-// Anyways, 'const' also has the process likes 'let' 
-// but it can't do both updating and re-declaring, including it feel like stable. 
+/*
+Desprite of 'let' has the process that's not more difference than 'var'.
+But when it has two 'let' values in the process and the same space, everything will stop
+and show the error told you can't create the same varieables repeat like 'var'.
+Lastly, you need to choose only one in let by yourself before start the process again.
+So all of them can annotate the difference between 'var' and 'let'
+that first one can both update and re-declare,
+be opposite with second one which can update but can't declare again.
+Anyways, 'const' also has the process likes 'let' 
+but it can't do both updating and re-declaring, including it feel like stable.
+*/
