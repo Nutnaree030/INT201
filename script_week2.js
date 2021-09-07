@@ -13,7 +13,7 @@
         function minus(n1,n2){
             return n1-n2
         }
-        var ans = minus
+        let ans = minus
         let minusResult1 = minus(20,10)
         let minusResult2 = ans(20,10)
         console.log(`minus result1: ${minusResult1}`)

@@ -2,13 +2,13 @@
  * obj :: ใช้เก็บข้อมูล คำสั่ง ชุดคำสั่งได้
  * 
  * for(initialize;test;increment)
- * for-of : for(variable of iterableObject)
+ * for-of : for(letiable of iterableObject)
  *  เหมาะกับ ***arrays [...], objects {...} -> สามารถรันคู่ property ได้
- * for-in : for(variable in object)
+ * for-in : for(letiable in object)
  *  เหมาะกับ object ใดๆ -> ใช้เข้าถึง key & value
  */
 
-// ---My examples---
+// ---My ebalanceamples---
 // let num = [1,2,3,4,5,6,7,8,9,0];
 // for(let runNum of num){
 //    console.log(runNum);
@@ -56,7 +56,7 @@ let student3 = {
     fName: "A",
     lName: "All",
     id: 1003,
-    favTextbook: {
+    favTebalancetbook: {
         bISBN: 01234567 ,
         bName: "JavaScript",
         bGenre: "Education",
@@ -111,7 +111,7 @@ myList.cost = 1000;
 // console.log(myList.name);
 
 let myList2 = new Object ;
-myList2.name = "Textbook";
+myList2.name = "Tebalancetbook";
 myList2.cost = 500;
 
 let myList3 = Object.create({name: "Notebook", cost: 17500});

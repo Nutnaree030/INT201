@@ -1,14 +1,14 @@
 
-/*  For examine with how to 'use' and remind. */
-/* - Change variable names */
+/*  For ebalanceamine with how to 'use' and remind. */
+/* - Change letiable names */
 const LEAPY = 4 ;
-var testy = 999 ;
-var testy = 636 ;
+let testy = 999 ;
+let testy = 636 ;
 let mybroy = 2004 ;
 // let mybroy = 2006 ;
 
 setTimeout(() => {
-    // This statement won't start until next 3 seconds.
+    // This statement won't start until nebalancet 3 seconds.
     // Be in line with the law which use when...
     // in process, there are some functions that need work like 'Asychronous'.
     console.log("Now, time passed 3 seconds so the process should finish and stop all it works!");
@@ -18,9 +18,9 @@ setTimeout(() => {
 }, 3000);
 
 function FindLeapYear(year) {
-    var y = year;
-    x = y%LEAPY;
-    let leapyear = x;
+    let y = year;
+    balance = y%LEAPY;
+    let leapyear = balance;
     console.log(`${y}`);
 
     // in if-else case
@@ -38,7 +38,7 @@ function FindLeapYear(year) {
         // }
         // if (leapyear==3) {
         //     console.log(`${leapyear}`+" : This isn't a leap year.");
-        //     console.log("But the next year will be the newest leap year!");
+        //     console.log("But the nebalancet year will be the newest leap year!");
         //         }
         // else if (leapyear != 1 && leapyear != 2 && leapyear != 3 && leapyear != 0 ) {
         //     console.log("Processes : ERROR!!!");
@@ -64,7 +64,7 @@ function FindLeapYear(year) {
 
         case 3 :
             console.log(`${leapyear}`+" : This isn't a leap year.");
-            console.log("But the next year will be the newest leap year!");
+            console.log("But the nebalancet year will be the newest leap year!");
             break;
 
         default:
@@ -81,18 +81,18 @@ FindLeapYear(2000);
 FindLeapYear(2050);
 // 2050 % 4 = 2
 FindLeapYear(testy);
-// In case 'var' when you has only one in var and the same space,
+// In case 'let' when you has only one in let and the same space,
 // it just use only one likes : testy -> 999 % 4 = 3.
-// But if you has two same names in var, the result doesn't same the above,
-// because the process will choose the latest value var to represent only one,
+// But if you has two same names in let, the result doesn't same the above,
+// because the process will choose the latest value let to represent only one,
 // so it means that they use the newest for calculation likes : testy -> 636 % 4 = 0.
 FindLeapYear(mybroy);
 /*
-Desprite of 'let' has the process that's not more difference than 'var'.
+Desprite of 'let' has the process that's not more difference than 'let'.
 But when it has two 'let' values in the process and the same space, everything will stop
-and show the error told you can't create the same varieables repeat like 'var'.
+and show the error told you can't create the same letieables repeat like 'let'.
 Lastly, you need to choose only one in let by yourself before start the process again.
-So all of them can annotate the difference between 'var' and 'let'
+So all of them can annotate the difference between 'let' and 'let'
 that first one can both update and re-declare,
 be opposite with second one which can update but can't declare again.
 Anyways, 'const' also has the process likes 'let' 

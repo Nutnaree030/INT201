@@ -8,7 +8,7 @@ let c = 1 + '1';
 console.log(c);
 let d = 1 - '1';
 console.log(d);
-// these're expressions (นิพจน์)
+// these're ebalancepressions (นิพจน์)
 console.log(1+2);
 console.log(2-'3');
 console.log(3*[]);
