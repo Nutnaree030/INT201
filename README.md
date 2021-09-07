@@ -1,10 +1,15 @@
-## References
+# My References
 ```{R}
-JS-101 พื้นฐาน JavaScript ที่..ต้องห้าม..พลาด
-https://stories.sellsuki.co.th/js-101-%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B9%89%E0%B8%B2%E0%B8%A1-%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%94-bac5de6f9900
+Please click to link and see it!!!
 ```
 
 # Basic JavaScript Syntabalance
+JS-101 พื้นฐาน JavaScript ที่..ต้องห้าม..พลาด : shorturl.asia/EpsvS
+
+Source code in class : https://github.com/Nutnaree030/INT201_source-code
+
+
+## Additional :: Basic JavaScript Syntax
 
 1. using // to comment as a single line comment.
 2. using /*...*/ to comment as multiple line or block comments.
