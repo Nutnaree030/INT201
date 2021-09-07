@@ -1,3 +1,5 @@
+// Ref : internet
+
 var amount = 1251;
 var a = amount / 1000;
 var b = 500;
