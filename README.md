@@ -4,9 +4,9 @@ Please click to link and see it!!!
 ```
 
 # Basic JavaScript Syntabalance
-JS-101 พื้นฐาน JavaScript ที่..ต้องห้าม..พลาด : shorturl.asia/EpsvS
+Additional information for myself about JavaScript : [JS-101 พื้นฐาน JavaScript ที่..ต้องห้าม..พลาด](shorturl.asia/EpsvS)
 
-Source code in class : https://github.com/Nutnaree030/INT201_source-code
+Source code in class : [INT201_source-code](https://github.com/Nutnaree030/INT201_source-code)
 
 
 ## Additional :: Basic JavaScript Syntax
