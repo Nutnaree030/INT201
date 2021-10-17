@@ -11,6 +11,7 @@ Additional information for myself about JavaScript :
 - [Stories of Sellsuki : #JavaScript](https://stories.sellsuki.co.th/tagged/javascript)
 - [คำถาม Javascript, ES6, React ที่อาจจะเจอในการสัมภาษณ์งาน](https://medium.com/@faisol.chehumar/%E0%B8%84%E0%B8%B3%E0%B8%96%E0%B8%B2%E0%B8%A1-javascript-es6-react-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%88%E0%B8%B0%E0%B9%80%E0%B8%88%E0%B8%AD-%E0%B9%83%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%93%E0%B9%8C%E0%B8%87%E0%B8%B2%E0%B8%99-66c380049d51)
 - [7 เรื่องพื้นฐานชวนสับสนใน JavaScript สำหรับผู้เริ่มต้น](https://www.babelcoder.com/blog/articles/7-common-misunderstandings-in-javascript)
+
 Source code in class : 
 - [INT201_source-code](https://github.com/Nutnaree030/INT201_source-code)
 
