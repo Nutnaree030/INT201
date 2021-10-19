@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <title>Dom Document</title>
+  </head>
+
+  <body>
+    <div id="Section1">
+      <ul>
+        <li class="group1"></li>
+        <li class="group2"></li>
+        <li class="group3"></li>
+        <li class="group4"></li>
+
+        <li class="group5"></li>
+
+        <li class="group6"></li>
+        <li class="group7"></li>
+        <li class="group8"></li>
+        <li class="group9"></li>
+        <li class="group10"></li>
+      </ul>
+
+    </div>
+
+    <script>
+
+        const li5 = document.querySelector('#Section1 .group5');
+        li5.textContent = 'ในเลข 5 มีคราบน้ำตาซ่อนอยู่';
+
+        const li1 = document.querySelector("div > ul li.group1");
+        li1.textContent = 'ในเลข 1 มีความโดดเดี่ยวซ่อนอยู่';
+
+        let li4 = (document.querySelector("li.group4"));
+        li4.innerHTML = "ในเลข 4 มีเสี้ยมซ่อนอยู่ข้างหน้า (นั่นมันเซียมซี!)";
+
+        let li3 = (document.querySelector("div > ul li.group3"));
+        li3.innerHTML = "ในเลข 3 มีความน่ากลัวซ่อนอยู่";
+
+        let li2 = document.getElementsByClassName('group2')[0];
+        li2.append('ในเลข 2 มีความหวานซ่อนอยู่');
+
+    </script>
+
+  </body>
+
+</html>
