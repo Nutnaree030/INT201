@@ -1,0 +1,82 @@
+<!DOCTYPE html >
+<html>
+  <head>
+     <meta charset="utf-8" >
+     <title>Contest Entry Form</title>
+     <style type="text/css">
+        ol, ul { 
+          list-style-type: none;
+        }
+     </style>
+  </head>
+
+  <body>
+
+      <h1>&ldquo;Pimp My Shoes&rdquo; Contest Entry Form</h1>
+
+      <p>Want to trade in your old sneakers for a custom pair of Forcefields? Make a case for why your shoes have <em>got</em> to go and you may be one of ten lucky winners.</p>
+
+      <!-- put the form element and form contols after here-->
+      
+      <form method="POST">
+      <p>Contest Entry Information</p>
+      <ul>
+        <li><label for="name">Name:</label>
+          <input type="text" name="name" id="name"></li>
+        <li><label for="email">Email Address:</label>
+          <input type="text" name="email" id="email"></li>
+        <li><label for="phone">Telephone Number:</label>
+          <input type="text" name="phone" id="phone"></li>
+        <li><label for="story">My shoes are SO old…</label><br>
+          <textarea rows="4" cols="60" name="story"></textarea></li>
+      </ul>
+      </form>
+
+      <h2>Design your custom Forcefields:</h2>
+      
+      <form action="contest.php" method="POST">
+      <fieldset>
+      <legend>Custom Shoe Design</legend>
+        <fieldset>
+        <legend>Color <em>(choose one)</em>:</legend>
+           <input type="radio" name="color" value="red"><label>Red</label><br>
+           <input type="radio" name="color" value="blue"><label>Blue</label><br>
+           <input type="radio" name="color" value="black"><label>Black</label><br>
+           <input type="radio" name="color" value="silver"><label>Silver</label>
+        </fieldset>
+        <fieldset>
+        <legend>Features <em>(Choose as many as you want)</em></legend>
+      
+           <input type="checkbox" name="features[]" value="laces"><label>Sparkley laces</label><br>
+           <input type="checkbox" name="features[]" value="logo"><label>Metallic logo</label><br>
+           <input type="checkbox" name="features[]" value="heels"><label>Light-up heels</label><br>
+           <input type="checkbox" name="features[]" value="mp3"><label>MP3-enabled</label>
+        </fieldset>
+        <fieldset>
+        <legend>Size</legend>
+          <label for="size">Sizes reflect standard men's sizes:</label><select name="size">
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+            </select>
+        </fieldset>
+      </fieldset>
+
+      <input type="submit" name="submit" value="Pimp my shoes!">
+      <input type="reset" name="reset" value="Reset">
+
+      
+      </form>
+
+
+      
+      <!-- this is the end of form element before this comment-->
+      
+  </body>
+</html>
