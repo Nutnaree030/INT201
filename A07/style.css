@@ -1,0 +1,73 @@
+.product {
+    border-radius: 5px;
+    box-shadow: gray 1px 1px 3px;
+    float: left;
+    margin: 1em;
+    font-size: 5px;
+    padding: 1em;
+    width: 160px;
+    height: 64em;
+    text-align: center;
+    font-family: 'TH Sarabun PSK', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.product img {
+    width: 120px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Add {
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E7C3AA;
+    height: 3em;
+}
+
+li #search {
+    float: left;
+    margin: 10px
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+#cart {
+    float: right;
+    margin: 10px;
+    margin-right: 120px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'TH Sarabun PSK', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#searchBar {
+    float: left;
+    margin: 2px
+}
+
+#prodAmount {
+    border-radius: 10em;
+    color: red;
+}
+
+/** New Edition */
+#incart {
+    float: right;
+    margin: 10px;
+}

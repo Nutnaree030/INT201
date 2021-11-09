@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Manipulating Elements</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <ul>
+        <li><img src="./image/icon/search.png" width="25px" height="25px" id="search"></li>
+        <span id="searchBar" style="display: inline-block;"></span>
+        <svg><img src="./image/icon/cart.png" width="25px" height="25px" id="cart"></svg>
+        <span id="incart" style="display: inline-block;"></span>
+    </ul>
+    <h1>UNIQLO Costume Collection</h1>
+    <div id="products"></div>
+
+
+
+    <!-- <p>Click "Try it" to execute the displayDate() function.</p>
+
+    <button id="myBtn">Try it</button>
+
+    <p id="demo"></p> -->
+
+    <script>
+        // /** New Edition */
+        // document.getElementById('incart') = display;
+        // function display() {
+        //     console.log(document.getElementById('incart').innerHTML);
+        // }
+
+        /**
+         * let incartEle = document.querySelector("#incart")
+         * 
+         * let count = 0;
+         * incartEle.textContent = count;
+         * let incart = [];
+         * 
+         * carts.addEventListener("click" , ()=>{
+         * let a = [];
+         * incart = a;
+         * incartEle.textContent = count = 0;
+         * console.log(incart);
+         * }) 
+         */
+        
+        /** let creatI2 = document.createElement("img");
+         * createI2.className = "Add";
+         * createI2.Id = product[i].productId;
+         * createI2.src = "";      
+         * createI2.addEventListener("click", () => {
+            *  let addProd = createI2.getAttribute('id');
+            *  if(!incart.include(addProd)) {
+            *      alert(`new ${addProd} added`);
+            *    }
+            *  alert(`${addProd} had been added`);
+            *  incartEle.innerHTML += ++count;
+            *  incart.push(addProd);
+            *  console.log(incart);
+            * }, false)
+        */
+
+    </script>
+    <script src="productList.js" type="module"></script>
+    <script src="search.js" type="module"></script>
+    <script src="addCart.js" type="module"></script>
+</body>
+
+</html>
