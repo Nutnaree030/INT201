@@ -10,5 +10,96 @@
     <!-- <script src="script_week2.js"></script>
     <script src="script_week3.js"></script>
     <script src="./myTest/test-lab.js"></script> -->
+    
+    <span id="incart" style="display: inline-block;"></span>
+    
+    <script>
+        document.getElementById('incart') = display;
+        function display() {
+            document.getElementById('incart').innerHTML = `${incart}`;
+        }
+        /**
+         * let incartEle = document.querySelector("#incart")
+         * 
+         * let count = 0;
+         * incartEle.textContent = count;
+         * let incart = [];
+         * 
+         * carts.addEventListener("click" , ()=>{
+         * let a = [];
+         * incart = a;
+         * incartEle.textContent = count = 0;
+         * console.log(incart);
+         * }) 
+         */
+        
+        /** let creatI2 = document.createElement("img");
+         * createI2.className = "Add";
+         * createI2.Id = product[i].productId;
+         * createI2.src = "";      
+         * createI2.addEventListener("click", () => {
+            *  let addProd = createI2.getAttribute('id');
+            *  if(!incart.include(addProd)) {
+            *      alert(`new ${addProd} added`);
+            *    }
+            *  alert(`${addProd} had been added`);
+            *  incartEle.innerHTML += ++count;
+            *  incart.push(addProd);
+            *  console.log(incart);
+            * }, false)
+        */
+
+//     let result = stationeries.filter(text => text.name.includes(""));
+// //ปุ่ม search
+// function buttonC(){
+//     let x = document.getElementById("search").value.toLowerCase();
+//     result = stationeries.filter(text => text.name.toLowerCase().includes(`${x}`));
+//     console.log(result.length == 0);
+//     let divProduct = productsEle.children;
+//     console.log(result);
+//     if(result.length == 0){
+//         for(let a of divProduct){
+//             a.style.display = "none";
+//         }
+//     }else{
+//         for(let a of divProduct){
+//             for(let e of result){
+//                 if(a.id == e.id){
+//                     a.style.display = "";
+//                     break;
+//                 }else{
+//                     a.style.display = "none";
+//                 }
+//             }
+//         }
+//     }
+// }
+
+//     function appendProductDetail(stationery) {
+//     let divProductDetail = document.createElement("div");
+//     divProductDetail.className =
+//         "flex items-center justify-between py-2 px-3 bg-gray-400";
+//     let divPriceEle = appendDivPriceEle(stationery);
+//     let addToCartBtn = document.createElement("button");
+//     addToCartBtn.setAttribute("id", stationery.name);
+//     addToCartBtn.addEventListener("click", ()=>{
+//         let addproduct = addToCartBtn.getAttribute('id')
+//         if(!incart.includes(addproduct)){
+//             alert(`${addproduct} added in your cart`);
+//         }
+//         incartEle.textContent =  ++count;
+//         incart.push(addproduct);
+//         console.log(incart);
+//     },false);
+//     addToCartBtn.className =
+//         "bg-green-500 text-xs text-white px-2 py-1 font-semibold rounded uppercase hover:bg-green-600";
+//     addToCartBtn.textContent = "เพิ่มลงในตะกร้า";
+//     divProductDetail.appendChild(divPriceEle);
+//     divProductDetail.appendChild(addToCartBtn);
+//     return divProductDetail;
+// }
+
+    </script>
+    
 </body>
 </html>
